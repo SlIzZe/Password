@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="pass_generator">
+    <div class="title">
+      <h1>Password generator</h1>
+    </div>
+    <div class="generate_row">
+      <label for="length">Password length:
+        <input id="length" type="number">
+      </label>
+    </div>
+    <div class="generate_row">
+      <label for="letter_yes" class="letter">Add leters
+        <input name="letters" id="letter_yes" type="radio" checked>
+        <label for="letter_yes">yes</label>
+        <input name="letters" id="letter_no" type="radio">
+        <label for="letter_no">no</label>
+      </label>
+    </div>
+    <div class="generate_row">
+      <label for="numbers">Add numbers
+        <input type="checkbox" id="numbers">
+      </label>
+    </div>
+    <div class="generate_row">
+      <label for="simbols">Add simbols
+        <input type="checkbox" id="simbols">
+      </label>
+    </div>
+    <div class="btn">
+      <button class="generator_btn">Generate</button>
+    </div>
+    <div class="password">
+      <p class="generator_password"></p>
+      <p class="error_pass"></p>
+  </div>
+  <div class="copyBtn">
+    <button class="generate_copy">Copy</button>
+  </div>
+  </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>

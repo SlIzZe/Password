@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pass_generator{
+  height: 500px;
+  width: 1150px;
+  background: #1df1e3;
+  box-shadow: 0 0 15px #85f3e2;
+  border-radius: 15px;
+}
+
+.title{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.generate_row{
+  margin: 0 0 40px 10px;
+}
+
+#length{
+  border-radius: 3px;
+  height: 20px;
+  width: 85%;
+}
+
+.btn{
+  text-align: center;
+}
+
+.generator_btn{
+  background: #0b827a;
+  height: 70px;
+  width: 200px;
+  border: 2px solid #2aa8a6;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+  transition: 1s;
+  margin-bottom: 30px;
+}
+
+.generator_btn:hover{
+  background: #075f59;
+}
+
+.password{
+  display: flex;
+  align-items: center;
+  background: #cdcdcd;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 1120px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.generate_copy {
+  display: none;
+  height: 30px;
+  width: 100px;
+  background: #0b827a;
+  border: 2px solid #2aa8a6;
+  border-radius: 7px;
+  transition: 1s;
+  font-weight: 700;
+}
+
+.generate_copy:hover{
+  background: #075f59;
+}
+
+.copyBtn{
+  text-align: center;
+  margin-top: 12px;
+
+}
